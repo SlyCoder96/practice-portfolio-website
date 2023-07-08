@@ -1,7 +1,22 @@
 /* For all elements fonts style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.section_title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* nav bar related style */
 
 nav {
   display: flex;
@@ -51,15 +66,61 @@ nav li a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .banner .banner_image {
   width: 584px;
   height: 676px;
+}
+
+/* .banner_content {
+  max-width: 584px;
+} */
+
+.banner_greetings {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #474747;
+}
+
+.banner_title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.banner_des {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* main section */
+
+/* about section */
+
+.about {
+  background: #fff8f3;
+  padding: 150px;
+  border-radius: 10px;
+  margin: 130px 130px;
+}
+
+.section_description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 30px 0;
 }
